@@ -1,0 +1,38 @@
+.Person{
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.pict{
+    border-radius: 60px;
+}
+.fName{
+    font-weight: bold;
+}
+.bio{
+    text-align: center;
+    color: #36311f;
+    font-weight: bold;
+}
+.prof{
+    color: #afafaf;
+    font-weight: bold;
+}
+.text{
+    color: #afafaf;
+    font-weight: bold;
+}
+.btn{
+    background-color: aliceblue;
+    color: #6f8289;
+    border: 2px solid #6f8289;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+}    

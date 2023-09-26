@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-template-rows: repeat(2,350px);
+    grid-area: 
+    'card card'
+    'card card';
+    gap: 50px;
+    justify-content: center;
+    margin-top: 100px;
+}
