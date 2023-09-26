@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import './Person.css'
 const Person = ({fullName,bio,imgSrc,profession,shows})=> {
-    const [bool,setBool] = useState(shows);
-    const displayApp = () => setBool(!bool);
-    if (shows == true) {
+    const [part,setPart] = useState(shows);
+    const displayApp = () =>{setPart(!part); } 
+    if (part == true) {
         return (
             <article className='Person'>
                 <img src={imgSrc} alt="person" className='pict'/>
@@ -21,6 +21,7 @@ const Person = ({fullName,bio,imgSrc,profession,shows})=> {
         return (
             <article className='Person'>
                 <p>Unaivailable</p>
+                <button className='btn' onClick={displayApp}>Show More...</button>
             </article>
         )
     
