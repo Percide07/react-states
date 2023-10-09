@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Person.css'
-const Person = ({fullName,bio,imgSrc,profession,shows})=> {
+const Person = ({fullName,bio,imgSrc,profession,shows,id})=> {
     const [part,setPart] = useState(shows);
     const displayApp = () =>{setPart(!part); } 
     if (part == true) {

@@ -1,5 +1,6 @@
 const Data = [
     {
+        "id": 1,
         "fullName": "John Doe",
         "bio": "A software engineer with a passion for technology.",
         "imgSrc": 'https://randomuser.me/api/portraits/men/88.jpg',
@@ -7,6 +8,7 @@ const Data = [
         "shows": true
     },
     {
+        "id": 1,
         "fullName": "John Doe",
         "bio": "A software engineer with a passion for technology.",
         "imgSrc":'https://randomuser.me/api/portraits/women/64.jpg',
@@ -14,6 +16,7 @@ const Data = [
         "shows": true
     },
     {
+        "id": 1,
         "fullName": "John Doe",
         "bio": "A software engineer with a passion for technology.",
         "imgSrc": 'https://randomuser.me/api/portraits/women/90.jpg',
@@ -21,6 +24,7 @@ const Data = [
         "shows": false
     },
     {
+        "id": 1,
         "fullName": "John Doe",
         "bio": "A software engineer with a passion for technology.",
         "imgSrc": 'https://randomuser.me/api/portraits/women/54.jpg',
@@ -28,6 +32,7 @@ const Data = [
         "shows": true
     },
     {
+        "id": 1,
         "fullName": "John Doe",
         "bio": "A software engineer with a passion for technology.",
         "imgSrc": 'https://randomuser.me/api/portraits/men/75.jpg',
